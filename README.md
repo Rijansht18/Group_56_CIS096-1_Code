@@ -28,8 +28,8 @@ This is a simple e-commerce application built with JavaFX. The application has t
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ecommerce-javafx.git
-   cd ecommerce-javafx
+   git clone https://github.com/Rijansht18/Group_56_CIS096-1_Code.git
+   cd Group_56_CIS096-1_Code
    ```
 
 2. Build the project with Maven:
