@@ -41,32 +41,3 @@ This is a simple e-commerce application built with JavaFX. The application has t
    ```
    mvn javafx:run
    ```
-
-## Default Users
-
-The application comes with two default users for testing:
-
-### Admin
-- Username: admin
-- Password: admin123
-
-### Customer
-- Username: customer
-- Password: customer123
-
-## Project Structure
-
-- `src/main/java/com/ecommerce/model`: Contains the model classes (User, Customer, Admin, Product, Cart, Order, etc.)
-- `src/main/java/com/ecommerce/service`: Contains the service classes for business logic
-- `src/main/java/com/ecommerce/ui`: Contains the UI classes for the JavaFX application
-- `src/main/resources/styles`: Contains CSS files for styling the UI
-
-## Technologies Used
-
-- Java 17
-- JavaFX 17
-- Maven
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
