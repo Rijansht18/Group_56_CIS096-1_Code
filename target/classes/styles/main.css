@@ -1,0 +1,177 @@
+/* Main application styles */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-background-color: #f5f5f5;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #4285f4;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3367d6;
+}
+
+.button:pressed {
+    -fx-background-color: #2a56c6;
+}
+
+/* Text field styles */
+.text-field {
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4285f4;
+}
+
+/* Label styles */
+.label {
+    -fx-font-size: 14px;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+}
+
+/* Table styles */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f0f0f0;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #d0e3ff;
+}
+
+/* Product card styles */
+.product-card {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1);
+}
+
+.product-card:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 2);
+}
+
+/* Navigation styles */
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 15px;
+    -fx-border-width: 0 0 3px 0;
+    -fx-border-color: transparent;
+}
+
+.nav-button:hover {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #4285f4;
+}
+
+.nav-button.active {
+    -fx-border-color: #4285f4;
+    -fx-font-weight: bold;
+}
+
+/* Admin panel styles */
+.admin-panel {
+    -fx-background-color: #2c3e50;
+}
+
+.admin-nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 15px;
+    -fx-font-size: 14px;
+}
+
+.admin-nav-button:hover {
+    -fx-background-color: #34495e;
+}
+
+.admin-nav-button.active {
+    -fx-background-color: #34495e;
+    -fx-font-weight: bold;
+}
+
+/* Cart styles */
+.cart-item {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-margin: 5px 0;
+}
+
+/* Alert styles */
+.success-alert {
+    -fx-background-color: #d4edda;
+    -fx-text-fill: #155724;
+    -fx-border-color: #c3e6cb;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.error-alert {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-border-color: #f5c6cb;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.action-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 3 8;
+    -fx-font-size: 12px;
+}
+
+.action-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.action-button {
+    -fx-padding: 5 10;
+    -fx-font-size: 12px;
+}
+
+#cancelButton {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+}
+
+#returnButton {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-padding: 5;
+}
