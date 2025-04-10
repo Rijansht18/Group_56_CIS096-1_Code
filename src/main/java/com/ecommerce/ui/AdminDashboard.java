@@ -50,6 +50,7 @@ public class AdminDashboard {
 
     private void createUI() {
         root = new BorderPane();
+        primaryStage.setMaximized(true);
 
         // Create the header
         HBox header = createHeader();
@@ -115,7 +116,7 @@ public class AdminDashboard {
     }
 
     private HBox createFooter() {
-        Text footerText = new Text("© 2023 E-Commerce Application");
+        Text footerText = new Text("© 2025 E-Commerce Application");
         HBox footer = new HBox(footerText);
         footer.setAlignment(Pos.CENTER);
         footer.setPadding(new Insets(15));

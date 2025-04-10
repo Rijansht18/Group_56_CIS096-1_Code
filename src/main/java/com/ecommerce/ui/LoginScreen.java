@@ -39,6 +39,7 @@ public class LoginScreen {
     private void createUI() {
         root = new BorderPane();
         root.setPadding(new Insets(20));
+        primaryStage.setMaximized(true);
 
         // Create the header
         Text headerText = new Text("E-Commerce Application");
@@ -92,7 +93,7 @@ public class LoginScreen {
         root.setCenter(loginForm);
 
         // Add a footer
-        Text footerText = new Text("© 2023 E-Commerce Application");
+        Text footerText = new Text("© 2025 E-Commerce Application");
         HBox footer = new HBox(footerText);
         footer.setAlignment(Pos.CENTER);
         footer.setPadding(new Insets(20));

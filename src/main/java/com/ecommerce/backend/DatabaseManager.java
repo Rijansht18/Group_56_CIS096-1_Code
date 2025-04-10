@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseManager {
-
+    
     private static final String DB_URL = "jdbc:mysql://localhost:3307/";
     private static final String DB_NAME = "ecommerceFunctional";
     private static final String DB_USER = "root"; // Replace with your MySQL username
