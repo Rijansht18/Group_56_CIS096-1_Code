@@ -363,38 +363,7 @@ public class AdminDashboard {
             }
         });
 
-//        TableColumn<Order, Void> approveReturnColumn = new TableColumn<>("Approve Return");
-//        approveReturnColumn.setCellFactory(param -> new TableCell<>() {
-//            private final Button approveButton = new Button("Approve");
-//
-//            {
-//                approveButton.getStyleClass().add("action-button");
-//                approveButton.setOnAction(event -> {
-//                    Order order = getTableView().getItems().get(getIndex());
-//                    if (order != null && order.canApproveReturn()) {
-//                        boolean approved = orderService.approveReturn(order.getId());
-//                        if (approved) {
-//                            showAlert(Alert.AlertType.INFORMATION, "Success",
-//                                    "Return approved successfully.");
-//                        } else {
-//                            showAlert(Alert.AlertType.ERROR, "Error",
-//                                    "Failed to approve return.");
-//                        }
-//                    }
-//                });
-//            }
-//
-//            @Override
-//            protected void updateItem(Void item, boolean empty) {
-//                super.updateItem(item, empty);
-//                if (empty || getTableView().getItems().isEmpty()) {
-//                    setGraphic(null);
-//                } else {
-//                    Order order = getTableView().getItems().get(getIndex());
-//                    setGraphic(order != null && order.canApproveReturn() ? approveButton : null);
-//                }
-//            }
-//        });
+
 
         ordersTable.getColumns().addAll(orderIdColumn, customerIdColumn, orderDateColumn,
                 orderTotalColumn, orderStatusColumn,returnReasonColumn );
